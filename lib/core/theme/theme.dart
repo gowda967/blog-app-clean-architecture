@@ -17,5 +17,9 @@ class AppTheme {
       errorBorder: _border(Colors.red),
       focusedErrorBorder: _border(AppPallete.gradient2),
     ),
+    chipTheme: ChipThemeData(
+      color: WidgetStateProperty.all(AppPallete.backgroundColor),
+      side: BorderSide.none,
+    ),
   );
 }
