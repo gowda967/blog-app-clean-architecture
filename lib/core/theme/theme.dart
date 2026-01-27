@@ -14,7 +14,7 @@ class AppTheme {
       contentPadding: const EdgeInsets.all(27),
       enabledBorder: _border(),
       focusedBorder: _border(AppPallete.gradient2),
-      errorBorder: _border(Colors.red),
+      errorBorder: _border(AppPallete.errorColor),
       focusedErrorBorder: _border(AppPallete.gradient2),
     ),
     chipTheme: ChipThemeData(
